@@ -1,19 +1,19 @@
-// //Program Title: Kruskal's Algorithm for Minimum Spanning Tree
+/*Program Title: Kruskal's Algorithm for Minimum Spanning Tree
 
-// /* Description: The program implements Kruskal's algorithm to find the Minimum Spanning Tree (MST) of a weighted undirected graph.
-//    Kruskal's algorithm constructs the MST by adding edges to it in ascending order of their weights while avoiding cycles.  
+Description: The program implements Kruskal's algorithm to find the Minimum Spanning Tree (MST) of a weighted undirected graph.
+Kruskal's algorithm constructs the MST by adding edges to it in ascending order of their weights while avoiding cycles.  
    
-//     The program reads the graph from a text file and displays the edges of the MST.
+The program reads the graph from a text file and displays the edges of the MST.
 //     The user is prompted to enter the name of the text file containing the graph.
 
-//     The program consists of the following classes:
-//     1. Edge: Represents an edge in the graph.
-//     2. Heap: Implements a binary heap data structure.
-//     3. UnionFindSets: Implements the Union-Find data structure.
-//     4. Graph: Represents the graph and contains the MST_Kruskal method to find the MST.
-//     5. Kruskals: Contains the main method to read the graph from a file and display the MST.
+The program consists of the following classes:
+1. Edge: Represents an edge in the graph.
+2. Heap: Implements a binary heap data structure.
+3. UnionFindSets: Implements the Union-Find data structure.
+ 4. Graph: Represents the graph and contains the MST_Kruskal method to find the MST.
+5. Kruskals: Contains the main method to read the graph from a file and display the MST.
+ */
 
-// */
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
